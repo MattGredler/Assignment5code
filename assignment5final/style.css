@@ -1,0 +1,84 @@
+input{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+.list{
+    background: none;
+    border: none;
+    color: white;
+}
+Nav{
+    height: 100vh;
+    background-color: #333333;
+    width: 130px;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    position: fixed;  
+}
+#render{
+    background-image: url(images/bckg.jpg);
+    /* object-fit: cover; */
+    position: fixed;
+    margin: 10px;
+    width: 92vw;
+    height: 100vh;
+    left: 130px;
+    color: white;
+    background-size: cover;
+    mask-image: rgba(0, 0, 0, .5);
+}
+
+#verifyInput{
+    width: 300px;
+    height: 30px;
+    border: 3px solid black;
+    display: block;
+    border-radius: 8px;
+}
+
+#lookupInput{
+    width: 300px;
+    height: 30px;
+    border: 3px solid black;
+    display: block;
+    border-radius: 8px;
+}
+
+#containInput{
+    width: 300px;
+    height: 30px;
+    border: 3px solid black;
+    display: block;
+    border-radius: 8px;
+}
+
+.threeBoxes{
+    width: 300px;
+    height: 30px;
+    border: 3px solid black;
+    display: block;
+    border-radius: 8px;
+}
+#deleteInput{
+    width: 300px;
+    height: 30px;
+    border: 3px solid black;
+    display: block;
+    border-radius: 8px;
+}
+
+h1{
+    color: white;
+}
+
+#simplicity{
+    color: lightyellow;
+}
+
+#logo{
+    color: white;
+}
